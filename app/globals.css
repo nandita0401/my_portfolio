@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +25,95 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  /* --------------------------------------- */
+  /* 🎞️ Scrolling (Horizontal) Animations    */
+  /* --------------------------------------- */
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .scroll-left {
+    animation: scroll-left 20s linear infinite;
+  }
+
+  /* Duplicate marquee keyframes removed below (we'll only use one) */
+  .marquee {
+    animation: scroll-left 16s linear infinite;
+  }
+
+  .scroll-full {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  /* --------------------------------------- */
+  /* 🪩 Floating Animations                  */
+  /* --------------------------------------- */
+
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float-wiggle {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateY(-4px) rotate(1deg);
+    }
+    50% {
+      transform: translateY(-6px) rotate(-1deg);
+    }
+    75% {
+      transform: translateY(-4px) rotate(1deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+  }
+
+  .animate-float-wiggle {
+    animation: float-wiggle 4s ease-in-out infinite;
+  }
+
+  /* --------------------------------------- */
+  /* 💫 Wiggle (Rotation) Animation         */
+  /* --------------------------------------- */
+
+  @keyframes wiggle {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(2deg);
+    }
+    75% {
+      transform: rotate(-2deg);
+    }
+  }
+
+  .hover-wiggle:hover {
+    animation: wiggle 0.3s ease-in-out;
+  }
 }
