@@ -59,7 +59,7 @@ export default function Hero() {
             Crafting Scalable Tech. Driving Smart Solutions.
           </p>
           <p className="text-2xl text-gray-400">
-            I’m a results-driven developer blending code, data, and cloud to solve real-world problems. With 2.5+ years of experience at Barclays and a strong foundation in AI/ML and full-stack development, I turn complex challenges into streamlined, scalable solutions.
+            I’m a results-driven developer blending code, data, and cloud to solve real-world problems. With 2.5+ years of experience at Barclays and a strong foundation in AI/ML and full-stack development, I turn complex challenges into streamlined, scalable solutions. I recently wrapped a 50-day LeetCode streak to sharpen problem-solving discipline.
           </p>
 
           {/* CTA Buttons */}

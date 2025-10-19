@@ -8,17 +8,34 @@ export default function Experience() {
 
         <div className="absolute top-28 bottom-0 left-1/2 transform -translate-x-1/2 border-l-2 border-dashed border-gray-600 z-0"></div>
 
-        {/* Experience 1 - Software Developer */}
+        {/* Experience 1 - Data Analyst */}
         <div className="relative mb-20 flex flex-col items-center md:flex-row md:justify-start">
-          <div className="md:w-1/2 md:pr-8 text-center md:text-right z-10">
-            <p className="text-3xl font-bold text-gray-300 mb-4">Mar 2024 - Aug 2024</p>
+          <div className="md:w-1/2 md:pr-8 text-left z-10">
+            <p className="text-3xl font-bold text-gray-300 mb-4">Mar 2025 - Present</p>
             <div className="bg-[#0a192f] border border-gray-600 rounded-xl p-6 group transition-all duration-300 hover:bg-blue-950 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:scale-105 transform w-full md:ml-auto">
-              <h3 className="text-2xl font-bold mb-1">Software Developer</h3>
-              <p className="text-xl text-gray-400 mb-1">Barclays</p>
-              {/* <p className="text-sm text-gray-500">Jan 2023 – Jul 2023</p> */}
-              <p className="text-base text-gray-400 mt-2 group-hover:opacity-100 opacity-0 transition-opacity duration-300">
-                During my time at Barclays, I played a key role in delivering a critical middleware integration by modernizing legacy Java components, which enabled seamless cross-system data flow and accelerated stakeholder-driven feed enhancements by 30%. I streamlined production deployments by creating and deploying OpenShift containers, significantly reducing manual effort and aligning with DevOps best practices. Additionally, I led the development of a custom GUI for the DataOps team that enabled secure, self-service data modifications and cut turnaround time by 70% by removing manual approval steps. I also mentored over five new team members, expediting their onboarding and system setup, which resulted in a 100% faster ramp-up and improved overall team productivity. To ensure smooth transitions and project continuity, I conducted multiple knowledge transfer sessions focused on domain workflows, architecture, and coding standards, while fostering effective cross-functional coordination.
+              <h3 className="text-2xl font-bold mb-1">Data Analyst (Student Assistant)</h3>
+              <p className="text-xl text-gray-400 mb-1">
+                California State University, Long Beach
               </p>
+              <ul className="list-disc pl-5 text-base text-gray-400 space-y-2 mt-2 text-left opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
+                <li>
+                  Automated analysis of 500+ monthly feedback responses with Python, cutting manual processing effort by
+                  70%.
+                </li>
+                <li>
+                  Built SQL- and Python-powered dashboards that monitor student engagement for 1,000+ participants, enabling
+                  data-driven decisions.
+                </li>
+                <li>
+                  Implemented an NLP classification pipeline to surface feedback themes, improving insight accuracy and
+                  turnaround by 60%.
+                </li>
+                <li>
+                  Tuned preprocessing logic and query performance to lower average runtimes by ~40%, accelerating reporting
+                  cycles.
+                </li>
+                <li>Translated analytics into actionable insights that boosted event participation by 25%.</li>
+              </ul>
             </div>
           </div>
           <div className="w-1/12 flex justify-center items-start z-10 mt-4">
@@ -27,23 +44,78 @@ export default function Experience() {
           <div className="md:w-1/2 hidden md:block" />
         </div>
 
-        {/* Experience 2 - Analyst */}
+        {/* Experience 2 - Development Intern */}
         <div className="relative mb-20 flex flex-col items-center md:flex-row md:justify-end">
           <div className="md:w-1/2 hidden md:block" />
           <div className="w-1/12 flex justify-center items-start z-10 mt-4">
             <div className="w-6 h-6 bg-blue-500 rounded-full border-4 border-black"></div>
           </div>
-          <div className="md:w-1/2 md:pl-8 text-center md:text-left z-10">
-            <p className="text-3xl font-bold text-gray-300 mb-4">Aug 2021 – Jan 2023</p>
+          <div className="md:w-1/2 md:pl-8 text-left z-10">
+            <p className="text-3xl font-bold text-gray-300 mb-4">May 2025 - Aug 2025</p>
             <div className="bg-[#0a192f] border border-gray-600 rounded-xl p-6 group transition-all duration-300 hover:bg-blue-950 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:scale-105 transform w-full md:mr-auto">
-              <h3 className="text-2xl font-bold mb-1">Analyst</h3>
-              <p className="text-xl text-gray-400 mb-1">Barclays</p>
-              {/* <p className="text-sm text-gray-500">Aug 2021 – Jan 2023</p> */}
-              <p className="text-base text-gray-400 mt-2 group-hover:opacity-100 opacity-0 transition-opacity duration-300">
-                At Barclays, I developed and optimized ETL pipelines within the Enterprise Security Master (ESM) system to process upstream data from Bloomberg, Refinitiv, and ESMA, boosting processing efficiency and reducing downstream latency by 25%. I led user acceptance testing (UAT) and runback simulations for regulatory events, ensuring 100% compliance and zero production defects. As the owner of vendor change management, I analyzed upstream notifications and proactively coordinated mitigation strategies with IT, DataOps, and downstream teams, preventing outages during over six major vendor updates. In my role as release coordinator, I aligned cross-functional stakeholders and ensured timely, error-free deployments under tight deadlines. I also served as the on-call support lead, resolving critical production issues by analyzing logs, collaborating across teams, and documenting fixes in Confluence—reducing issue recurrence by 40%. Recognized as the Subject Matter Expert (SME) for vendor integration processes, I became the go-to resource for complex data handling and compliance queries. I consistently practiced Agile methodologies, using daily standups and GenJIRA for task tracking, which helped the team improve sprint velocity by 20%.
-              </p>
+              <h3 className="text-2xl font-bold mb-1">Development Intern</h3>
+              <p className="text-xl text-gray-400 mb-1">Intellisync AI</p>
+              <ul className="list-disc pl-5 text-base text-gray-400 space-y-2 mt-2 text-left opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
+                <li>Enhanced the corporate WordPress site, improving engagement metrics and lowering bounce rate by 18%.</li>
+                <li>
+                  Built a PyTorch-based product matching pipeline that raised matching accuracy by 25% with ranked,
+                  confidence-weighted recommendations.
+                </li>
+                <li>
+                  Developed an OCR and metadata tagging system with Tesseract, achieving 92% extraction accuracy and reducing
+                  manual review by 40%.
+                </li>
+                <li>
+                  Guided migration planning for the OCR pipeline on Google Cloud, recommending Vision API adoption and cutting
+                  projected operating costs by 30%.
+                </li>
+              </ul>
             </div>
           </div>
+        </div>
+
+        {/* Experience 3 - Software Developer */}
+        <div className="relative mb-20 flex flex-col items-center md:flex-row md:justify-start">
+          <div className="md:w-1/2 md:pr-8 text-left z-10">
+            <p className="text-3xl font-bold text-gray-300 mb-4">Aug 2021 - Aug 2024</p>
+            <div className="bg-[#0a192f] border border-gray-600 rounded-xl p-6 group transition-all duration-300 hover:bg-blue-950 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:scale-105 transform w-full md:ml-auto">
+              <h3 className="text-2xl font-bold mb-1">Software Developer - BA4</h3>
+              <p className="text-xl text-gray-400 mb-1">Barclays</p>
+              <ul className="list-disc pl-5 text-base text-gray-400 space-y-2 mt-2 text-left opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
+                <li>
+                  Re-architected legacy Java ETL algorithms, APIs, and microservices to integrate 10+ vendor feeds handling
+                  millions of daily records.
+                </li>
+                <li>
+                  Delivered a full-stack GUI that let DataOps self-serve updates, shrinking turnaround time from ~3 hours to 10
+                  minutes.
+                </li>
+                <li>
+                  Engineered resilient middleware workflows, authored regression suites, and validated releases, cutting
+                  production defects by 25%.
+                </li>
+                <li>
+                  Automated runbacks and orchestrated UAT for major events, safeguarding 100% accurate downstream reporting.
+                </li>
+                <li>
+                  Triaged 200+ vendor change notices, mitigating risks to 20+ consuming applications through proactive
+                  coordination.
+                </li>
+                <li>
+                  Led production support rotations, resolving 50+ recurring incidents via log analysis and cross-team
+                  collaboration to increase throughput by 40%.
+                </li>
+                <li>
+                  Supported OpenShift deployments and mentored new hires with KT sessions to uphold coding standards and
+                  resiliency practices.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-1/12 flex justify-center items-start z-10 mt-4">
+            <div className="w-6 h-6 bg-blue-500 rounded-full border-4 border-black"></div>
+          </div>
+          <div className="md:w-1/2 hidden md:block" />
         </div>
       </div>
     </section>

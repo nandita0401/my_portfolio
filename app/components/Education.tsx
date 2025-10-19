@@ -13,10 +13,10 @@ export default function Education() {
           <div className="md:w-1/2 md:pr-8 text-center md:text-right z-10">
             <p className="text-3xl font-bold text-gray-300 mb-4">Expected: May 2026</p>
             <div className="bg-[#0a192f] border border-gray-600 rounded-xl p-6 group transition-all duration-300 hover:bg-blue-950 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:scale-105 transform w-full md:ml-auto">
-              <h3 className="text-2xl font-bold mb-2">Masters in Information Systems</h3>
+              <h3 className="text-2xl font-bold mb-2">Master of Science in Computer Information Systems</h3>
               <p className="text-base text-gray-400 mt-2 group-hover:opacity-100 opacity-0 transition-opacity duration-300">
-                Cal State, Long Beach | GPA: 3.3<br />
-                Courseswork: ML, AI, Cloud Computing (AWS), DBMS, Business Analytics, System Analysis & Design, Deep Learning
+                California State University, Long Beach | GPA: 3.3<br />
+                Coursework: Machine Learning, Artificial Intelligence, Cloud Computing (AWS), Advanced Database Management, Business Analytics, Systems Analysis & Design, Deep Learning
               </p>
             </div>
           </div>
